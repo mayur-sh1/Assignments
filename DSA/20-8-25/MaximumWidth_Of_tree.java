@@ -11,7 +11,7 @@ class Solution {
         while (!q.isEmpty()) {
             int size = q.size();
 
-            // The minimum index at this level to  avoid overflow
+            // The minimum index at this level to  avoid overflow       
             int mmin = q.peek().index;
 
             int first = 0, last = 0; 
